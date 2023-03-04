@@ -45,3 +45,16 @@
     java RMI.sample.Client
     ``` 
 
+## How to check if the server is already running on the port ?
+
+1. First check by port number:
+
+    ```
+    sudo lsof -i:1099
+    ```
+2. Kill the process by ID
+
+    ```
+    sudo kill -9 pid
+    ```
+    
